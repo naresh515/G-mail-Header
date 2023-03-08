@@ -1,5 +1,6 @@
-$(document).ready(function (e) {
-    $(".toogle").click(function () {
-        $(".dropdown-content").slideToggle();
+$(document).ready(function () {
+    $('#sidebar-btn').click(function () {
+        $('#sidebar').toggleClass('visible');
+        console.log("clicked");
     });
-});
+})  

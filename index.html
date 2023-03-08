@@ -15,17 +15,44 @@
         <div class="nav">
             <div class="left_nav">
                 <div class="dropdown">
-                    <div class="toogle">
-                        <span></span>
-                        <span></span>
-                        <span></span>
+                    <div id="sidebar">
+                        <ul>
+                            <li> <a href="#" class="active">Inbox</a></li>
+                            <li> <a href="#">starred</a></li>
+                            <li> <a href="#">snoozed</a></li>
+                            <li> <a href="#">sent</a></li>
+                            <li> <a href="#">Drafts</a></li>
+                        </ul>
+
+                        <div id="sidebar-btn">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                        </div>
                     </div>
-                    <div class="dropdown-content">
-                        <a href="#">Inbox</a>
-                        <a href="#">starred</a>
-                        <a href="#">snoozed</a>
-                        <a href="#">sent</a>
-                        <a href="#">Drafts</a>
+                    <div class="mass">
+                        <div class="img acti">
+                            <img src="./img/mail_fill_baseline_p900_20dp.png">
+                        </div>
+                        <p class="blo">Mail</p>
+                    </div>
+                    <div class="chat">
+                        <div class="img">
+                            <img src="./img/chat.png">
+                        </div>
+                        <p class="blo">chat</p>
+                    </div>
+                    <div class="group">
+                        <div class="img">
+                            <img src="./img/group.png">
+                        </div>
+                        <p class="blo">spaces</p>
+                    </div>
+                    <div class="meet">
+                        <div class="img">
+                            <img src="./img/meet.png">
+                        </div>
+                        <p class="blo">meet</p>
                     </div>
                 </div>
                 <div class="mail_icon">
@@ -48,36 +75,33 @@
                 </div>
             </div>
         </div>
-        <div class="responsive_nav">
-            <div class="responsive_icon">
-                <div class="six">
-                    <div class="dropdown">
-                        <div class="toogle">
-                            <span></span>
-                            <span></span>
-                            <span></span>
-                        </div>
-                        <div class="dropdown-content">
-                            <a href="#">Inbox</a>
-                            <a href="#">starred</a>
-                            <a href="#">snoozed</a>
-                            <a href="#">sent</a>
-                            <a href="#">Drafts</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="five">
-                    <p>Unread</p>
-                </div>
-                <div class="four">
-                    <button class="button" type="button"><i class="fa fa-light fa-pen pan"></i></button>
-                </div>
+        <div class="section">
+            <div class="first_container">
+                <!-- <div class="first">
+                    <img src="./img/one.png">
+                    <p>Account</p>
+                </div> -->
+            </div>
+            <div class="second_container">
+
+            </div>
+            <div class="third_container">
+
             </div>
         </div>
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
-        <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <script src="./script.js"></script>
+        <div class="responsive_nav">
+            <div class="responsive_icon">
+                    <div class="five">
+                        <p>Unread</p>
+                    </div>
+                    <div class="four">
+                        <button class="button" type="button"><i class="fa fa-light fa-pen pan"></i></button>
+                    </div>
+                </div>
+            </div>
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+            <script src="https://code.jquery.com/ui/1.13.2/jquery-ui.js"></script>
+            <script src="./script.js"></script>
 </body>
 
 </html>
